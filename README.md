@@ -9,3 +9,4 @@
   ```lua
     local stateHandler=require(path to statehandler)
   ```
+  ### Functions
