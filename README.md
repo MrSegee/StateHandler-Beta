@@ -20,17 +20,20 @@
 
   and this will be the explanation of the arguments
 
-  We will start with the player argument.
+  We will start with the player argument
   
-    in the player argument you will have to give the plr (game:GetService("Players").plrname if you want a specific plr)
+  in the player argument you will have to give the plr (game:GetService("Players").plrname if you want a specific plr)
 
   Now the stateKey argument
-    This will be the name of the state, and how other scripts would read the state.
+  
+ This will be the name of the state, and how other scripts would read the state.
 
   Now the Value argument
-    this is what you would like to set the state to i would prefer doing a boolean like true but you can also input strings, numbers, tables, etc
+  
+  this is what you would like to set the state to i would prefer doing a boolean like true but you can also input strings, numbers, tables, etc
 
   The duration argument
-    this is an unneeded argument but if you set this argument it will set the duration for how long you would have that state and after that duration it would be deleted.
+  
+  this is an unneeded argument but if you set this argument it will set the duration for how long you would have that state and after that duration it would be deleted.
 
   
