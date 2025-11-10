@@ -38,6 +38,13 @@
 
 
 For Example
+
 ```lua
-	stateHandler.SetState(plr, "Example", "ExampleValue", 2)
+stateHandler.SetState(plr, "Example", "ExampleValue", 2)
 ```
+
+  ### GetState
+  This is the way of checking if the player has a state and what it is.
+  this function is run by doing
+	rd`
+	stateHandler.GetState()
