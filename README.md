@@ -1,2 +1,2 @@
-# StateHandler-Beta
-A StateHandler Made By Me
+# StateHandler V0.1 Beta DOCUMENTATION
+
