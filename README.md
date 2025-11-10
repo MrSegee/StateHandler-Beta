@@ -10,7 +10,7 @@
     local stateHandler=require(path to statehandler)
   ```
   ### SetState
-  The SetState function is the main part of using this statehandler, and this is how it works
+  The SetState function is the main part of using this statehandler, and this is how it works,
   first type:
   ```lua
   stateHandler.SetState()
