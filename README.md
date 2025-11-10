@@ -36,4 +36,8 @@
   
   this is an unneeded argument but if you set this argument it will set the duration for how long you would have that state and after that duration it would be deleted.
 
-  
+
+For Example
+```lua
+	stateHandler.SetState(plr, "Example", "ExampleValue", 2)
+```
