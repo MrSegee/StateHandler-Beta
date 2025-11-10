@@ -34,7 +34,7 @@ function module.GetState(plr, stateKey)
 	return nil
 end
 
-function module.RemoveStates(plr,stateKey)
+function module.RemoveState(plr,stateKey)
 	if not states[plr] then return end
 	
 	if stateKey then
