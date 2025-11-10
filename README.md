@@ -10,13 +10,15 @@
     local stateHandler=require(path to statehandler)
   ```
   ### SetState
-  The SetState function is the main part of using this statehandler, and this is how it works:
-  first type
+  The SetState function is the main part of using this statehandler, and this is how it works
+  first type:
   ```lua
   stateHandler.SetState()
   ```
-  this will run the function, with no arguments though so it wont do much.
-  the arguments are as followed: player, stateKey, Value, duration
+  this will run the function with no arguments, so it wont do much.
+  the arguments are as followed: player, stateKey, value, duration
+
+  and this will be the explanation of the arguments
 
   We will start with the player argument
     in the player argument you will have to give the plr (game:GetService("Players").plrname if you want a specific plr)
