@@ -16,7 +16,7 @@
   stateHandler.SetState()
   ```
   this will run the function with no arguments, so it wont do much.
-  the arguments are as followed: player, stateKey, value, duration
+  The arguments are as followed: player, stateKey, value, duration
 
   and this will be the explanation of the arguments
 
