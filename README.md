@@ -26,7 +26,7 @@
 
   Now the stateKey argument
   
- This will be the name of the state, and how other scripts would read the state.
+ This will be the name of the state, and how other scripts would read the state, for example: "StateName"
 
   Now the Value argument
   
