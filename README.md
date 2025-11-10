@@ -38,11 +38,11 @@
   this is an unneeded argument but if you set this argument it will set the duration for how long you would have that state and after that duration it would be deleted.
 
 
-For Example
+   For Example
 
-```lua
-stateHandler.SetState(plr, "Example", "ExampleValue", 2)
-```
+   ```lua
+   stateHandler.SetState(plr, "Example", "ExampleValue", 2)
+   ```
 
   ### GetState
   This is the way of checking if the player has a state and what it is.
@@ -68,3 +68,50 @@ stateHandler.SetState(plr, "Example", "ExampleValue", 2)
    local state=stateHandler.GetState(plr, "Example")
    print(state)
    ```
+  ### RemoveState
+  it removes a state from a player.
+
+  this is a function
+
+  you run it by doing 
+  ```lua
+  stateHandler.RemoveState()
+  ```
+  
+  needed arguments: plr, stateKey
+
+  nothing else to explain about removestate.
+
+  ### ReturnStates
+  returns a table of the states of the provided player
+
+  this is a function
+
+  you run it by doing
+  ```lua
+  stateHandler.ReturnStates()
+  ```
+
+  needed arguments: plr
+  
+  nothing else to explain about ReturnStates.
+
+  ### SetStun
+  stuns the provided player
+
+  this is a function
+
+  you run it by doing
+  ```lua
+  stateHandler.SetStun()
+  ```
+  needed arguments: plr, value, duration, stunspeed
+
+  what is the "value" argument?:
+  its a boolean which determines if it has to delete a stun or add a stun, true adds a stun and false removes a stun.
+
+  what is the "stunspeed" argument?
+  this is an optional argument, if nothing given it will set the stunspeed to 0.
+  this is the walkspeed while stunned.
+
+# THANK YOU FOR READING THIS DOCUMENTATION.
